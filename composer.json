@@ -3,16 +3,21 @@
     "description": "Website visitor tracking library",
     "type": "library",
     "license": "MIT",
-    "keywords": ["tracking", "visitor", "analytics", "crm"],
+    "keywords": [
+        "tracking",
+        "visitor",
+        "analytics",
+        "crm"
+    ],
     "homepage": "https://github.com/ksfraser/ksf_Tracking",
     "autoload": {
         "psr-4": {
-            "Ksfraser\\Tracking\\": "src/Ksfraser/Tracking/"
+            "Ksfraser\\": "src/Ksfraser/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ksfraser\\Tracking\\Tests\\": "tests/"
+            "Ksfraser\\Tests\\": "tests/"
         }
     },
     "require": {
